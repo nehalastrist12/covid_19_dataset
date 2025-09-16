@@ -14,6 +14,4 @@ fig = px.choropleth(country_deaths,
 fig.show()
 
 country_deaths.to_csv("country_deaths.csv", index=False)
-
 fig.write_html("covid_deaths_map.html")
-
